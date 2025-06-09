@@ -1,4 +1,6 @@
-﻿double peso, altura, imc;
+﻿Console.Clear();
+
+double peso, altura, imc;
 string situacao = "";
 ConsoleColor corResultado = ConsoleColor.White;
 
@@ -68,3 +70,6 @@ Console.ForegroundColor = corResultado;
 Console.WriteLine($"Diagnóstico: {situacao}");
 
 Console.ResetColor();
+
+Console.WriteLine("\n\nPressione uma tecla para encerrar...");
+Console.ReadKey(true);
